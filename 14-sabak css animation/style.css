@@ -1,0 +1,80 @@
+
+body{
+    /* background-color: aqua; */
+    height: 700px;
+    background-size: cover;
+    background-position: 0%;
+    background-image: url( http://kviter.ru/wp-content/uploads/2013/07/format_jpg.jpg )
+    
+    
+}
+
+
+div{
+    
+
+    width: 100px;
+    height: 100px;
+    border: 2px solid;
+    border-radius: 50%;
+    background-color: gold;
+    box-shadow: 0px 0px 15px 15px rgb(241, 150, 13);
+    position: relative;
+    animation: mymove 5s infinite;
+}
+@keyframes aida{
+    from{
+        left: 300px;
+
+    }
+    to{
+        left: 900px;
+
+    }
+}
+
+@keyframes mymove{
+    0% {
+        left: 100px;
+        top: 10px;
+    }
+    15%{
+        left: 200px;
+        top: 20px;
+
+    }
+
+    30% {
+        left: 300px;
+        top: 30px;
+
+
+    }
+
+    45%{
+        left: 400px;
+        top: 40px;
+    }
+    60%{
+        left: 500px;
+        top: 50px;
+    }
+
+    75%{
+        left: 600px;
+        top: 60px;
+    }
+    90%{
+        left: 700px;
+        top: 70px
+    }
+
+    105%{
+            left: 800px;
+        top: 80px;
+    }
+    120%{
+        left: 90px;
+        top: 130px;
+    }
+}
